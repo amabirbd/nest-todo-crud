@@ -1,0 +1,24 @@
+<div class='container'>
+    <form id='todo-form' class='mt-3'>
+        <div class='form-group'>
+            <label htmlFor='title'>todo title</label>
+            <input type='title' class='form-control' id='title' placeholder='Enter title' required />
+        </div>
+        <div class='form-group'>
+            <label htmlFor='description'>todo description</label>
+            <input type='description' class='form-control' id='description' placeholder='description' required />
+        </div>
+        <p id="error" class="text-white text-small bg-danger"></p>
+        <button type='submit' class='btn btn-primary'>
+            add todo
+        </button>
+    </form>
+
+    <div style="padding: 50px;">
+        <h1>Todos</h1>
+        <ul id="todos">
+            
+        </ul>
+    </div>
+</div>
+<script src="/scripts/todo.js"></script>
