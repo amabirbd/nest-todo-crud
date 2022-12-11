@@ -4,17 +4,18 @@
 
 ## Installation
 
-```bash
+`bash
 $ npm install
-```
+`
 
 ## Running the app
 
-```bash
+`bash
 
 # watch mode
+
 $ npm run start:dev
-```
+`
 
 ## Endpoints
 
@@ -22,48 +23,42 @@ $ npm run start:dev
 
 $ GET
 
-```http://localhost:3000/todos
+`http://localhost:3000/todos
 
-```
+`
 
 # Create todo
 
 $ POST
 
-```http://localhost:3000/todos
+http://localhost:3000/todos
 
-```
+`
 
 body
 
-```{ "title": "some title", "description": "some description" }
+`{ "title": "some title", "description": "some description" }
 
-```
+`
 
 # Update todo
 
 $ PUT
 
-```http://localhost:3000/todos/:id
+`http://localhost:3000/todos/:id
 
-```
+`
 
 body
 
-```{ "title": "some title", "description": "some description" }
+`{ "title": "some title", "description": "some description" }
 
-```
+`
 
 # Delete todo
 
 $ DELETE
 
-```http://localhost:3000/todos/:id
+`http://localhost:3000/todos/:id
 
-```
-
-body
-
-```{ "title": "some title", "description": "some description" }
-
-```
+`
